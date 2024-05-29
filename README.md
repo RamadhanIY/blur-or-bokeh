@@ -17,6 +17,8 @@ This project aims to classify images based on their focus quality. Specifically,
 The dataset for this project is sourced from:
 - **Kaggle**: Various image datasets containing both blurred (motion blurred and gaussian blurred) and bokeh images.
 - **HuggingFace**: Bokeh images used to complement the dataset, and create the blurred manually using opencv (https://huggingface.co/datasets/comHannah/bokeh-dataset)
+
+You can download the dataset from [this link](https://drive.google.com/drive/folders/1SvxvGQZQIzZqO3B4sZTCXbatnC-wZIuF?usp=sharing)
   
 ## Model Architecture
 
@@ -31,6 +33,8 @@ Below is an overview of the model:
 - Global Average Pooling: Averages the spatial dimensions.
 - Dropout: Applied for regularization.
 - Output Layer: Dense layer with sigmoid activation, returning logits for binary or multi-class classification tasks.
+
+You can download the model in [this link](https://drive.google.com/file/d/1av1DZ4uCUOCbD9nDwjbqYiohRPnjvYTS/view?usp=sharing)
 
 ## Training and Evaluation
 The model is trained with 20 epochs, using Adam Optimizer and Binary Crossentropy for the loss. The metrics that it uses is accuracy with result below:
